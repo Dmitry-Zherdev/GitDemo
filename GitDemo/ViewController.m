@@ -11,6 +11,7 @@
 @interface ViewController ()
 
 -(void)sayHello;
+-(void)sayByeBye;
 
 @property (nonatomic) int sum;
 
