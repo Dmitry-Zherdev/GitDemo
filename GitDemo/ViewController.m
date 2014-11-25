@@ -30,6 +30,8 @@
     self.sum = a + b;
     
     NSLog(@"The result is: %d", self.sum);
+    
+    [self sayByeBye];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,6 +43,10 @@
 
 -(void)sayHello{
     NSLog(@"Hello");
+}
+
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
 }
 
 @end
