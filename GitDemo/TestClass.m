@@ -1,17 +1,13 @@
 //
-//  ViewController.h
+//  TestClass.m
 //  GitDemo
 //
 //  Created by Дмитрий Жердев on 25.11.14.
 //  Copyright (c) 2014 Дмитрий Жердев. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 #import "TestClass.h"
 
-@interface ViewController : UIViewController
-
+@implementation TestClass
 
 @end
-
