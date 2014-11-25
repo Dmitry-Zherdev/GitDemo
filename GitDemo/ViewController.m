@@ -45,14 +45,10 @@
 }
 
 -(void)sayHello{
-    NSLog(@"Developer 1");
-    NSLog(@"Developer 2");
     NSLog(@"Hello");
 }
 
 -(void)sayByeBye{
-    NSLog(@"Developer1 branch");
-    NSLog(@"Developer2 branch");
     NSLog(@"Bye - Bye");
 }
 
