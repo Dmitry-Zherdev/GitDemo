@@ -49,7 +49,7 @@
 }
 
 -(void)sayByeBye{
-    NSLog(@"Developer 1 branch");
+    NSLog(@"Developer1 branch");
     NSLog(@"Bye - Bye");
 }
 
