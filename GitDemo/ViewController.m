@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+-(void)sayHello;
+
 @property (nonatomic) int sum;
 
 @property (nonatomic, strong) TestClass *testClass;
@@ -33,6 +35,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    [self sayHello];
+}
+
+-(void)sayHello{
+    NSLog(@"Hello");
 }
 
 @end
