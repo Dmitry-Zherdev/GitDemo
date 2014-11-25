@@ -43,8 +43,6 @@
 }
 
 -(void)sayHello{
-    NSLog(@"Developer 1");
-    NSLog(@"Developer 2");
     NSLog(@"Hello");
 }
 
